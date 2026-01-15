@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Allyson Aguilera - Analista Programador | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#FFC0CB", // Rose Pink
+                        "accent-dark": "#E6A8B3", // Slightly darker rose
+                        "background-light": "#FDF8F5", // Creamy Off-White
+                        "background-dark": "#1A1614",
+                        "soft-text": "#4A3438",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        :root {
+            --primary-color: #FFC0CB;
+            --cream-bg: #FDF8F5;
+        }
+    </style>
+</head>
+<body class="bg-white dark:bg-background-dark font-display text-[#2D2424] dark:text-slate-50 transition-colors duration-300 overflow-x-hidden">
+<div class="layout-container flex flex-col min-h-screen">
+<header class="sticky top-0 z-50 w-full border-b border-solid border-[#F3E9E2] dark:border-[#2D2424] bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-6 md:px-20 lg:px-40 py-4">
+<div class="flex items-center justify-between max-w-[1200px] mx-auto">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-tight">Allyson Aguilera</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium hover:text-accent-dark transition-colors" href="#inicio">Inicio</a>
+<a class="text-sm font-medium hover:text-accent-dark transition-colors" href="#perfil">Perfil</a>
+<a class="text-sm font-medium hover:text-accent-dark transition-colors" href="#habilidades">Habilidades</a>
+<a class="text-sm font-medium hover:text-accent-dark transition-colors" href="#proyectos">Proyectos</a>
+<a class="text-sm font-medium hover:text-accent-dark transition-colors" href="#trayectoria">Trayectoria</a>
+<a class="text-sm font-medium hover:text-accent-dark transition-colors" href="#contacto">Contacto</a>
+</nav>
+<a class="flex min-w-[100px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-[#4A3438] text-sm font-bold tracking-wide hover:brightness-95 transition-all" href="#contacto">
+<span>Hablemos</span>
+</a>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="px-6 md:px-20 lg:px-40 py-16 md:py-24 bg-white" id="inicio">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col gap-10 lg:flex-row lg:items-center">
+<div class="w-full lg:w-1/2 aspect-[4/5] bg-center bg-no-repeat bg-cover rounded-2xl shadow-2xl order-2 lg:order-1 border-8 border-background-light" style='background-image: url("/assets/images/allysonAgui.jpg");'>
+</div>
+<div class="flex flex-col gap-8 w-full lg:w-1/2 order-1 lg:order-2 lg:pl-12">
+<div class="flex flex-col gap-4">
+<span class="text-accent-dark font-bold tracking-widest text-xs uppercase">Analista Programador</span>
+<h1 class="text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.03em]">
+                                Allyson Estefanía <span class="text-accent-dark">Aguilera Poblete</span>
+</h1>
+<p class="text-lg md:text-xl font-normal leading-relaxed text-[#5D4E4E] dark:text-slate-300 max-w-[500px]">
+                               Enfocada en desarrollo web full-stack, interesada en construir interfaces claras y sistemas eficientes.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<a class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-[#4A3438] text-base font-bold transition-all  hover:shadow-lg shadow-primary/20" href="#proyectos">
+                                Ver Proyectos
+                            </a>
+<a class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-[#F3E9E2] dark:bg-[#2D2424] text-[#2D2424] dark:text-white text-base font-bold hover:bg-[#EBDDD3] dark:hover:bg-[#3D3131] transition-colors" href="#contacto">
+                                Contactar
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light dark:bg-[#1A1614] px-6 md:px-20 lg:px-40 py-24" id="perfil">
+<div class="max-w-[1200px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+<div class="flex flex-col gap-6">
+<h2 class="text-accent-dark font-bold tracking-widest text-xs uppercase">Perfil Profesional</h2>
+<h3 class="text-4xl font-extrabold leading-tight">Desarrolladora Web en Formación</h3>
+<p class="text-lg leading-relaxed text-[#5D4E4E] dark:text-slate-300">
+                            Holaa! soy Allyson, estudiante de último año de Analista Programador con enfoque en desarrollo Frontend y conocimientos sólidos en Backend. Tengo Experiencia práctica desarrollando sitio web en producción para clientes reales, implementando diseño responsivo, SEO y formularios con envío de correos con la tecnología PHP. Manejo de tecnologías como JavaScript, Java, Python y bases de datos relacionales. Busco una práctica profesional donde pueda aplicar mis conocimientos técnicos y continuar desarrollándome en un entorno de trabajo colaborativo.
+                        </p>
+<p class="text-lg leading-relaxed text-[#5D4E4E] dark:text-slate-300">
+                            Estoy en constante aprendizaje, lo cual me ha ayudado a manejar lenguajes tanto de frontend como de backend, participando en el ciclo de vida completo de aplicaciones web, desde el modelado de bases de datos hasta el despliegue final.
+                        </p>
+<div class="flex items-center gap-6 mt-4">
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">verified_user</span>
+<div>
+<p class="font-bold">Práctica Profesional</p>
+<p class="text-sm opacity-70">Buscando nuevos retos</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-8 bg-white dark:bg-background-dark rounded-2xl shadow-sm border border-[#F3E9E2] dark:border-[#2D2424] flex flex-col gap-2">
+<span class="text-4xl font-black text-accent-dark">3+</span>
+<span class="text-sm font-bold uppercase tracking-tighter opacity-60">Años de formación</span>
+</div>
+
+<div class="p-8 bg-white dark:bg-background-dark rounded-2xl shadow-sm border border-[#F3E9E2] dark:border-[#2D2424] flex flex-col gap-2">
+<span class="text-4xl font-black text-accent-dark">02</span>
+<span class="text-sm font-bold uppercase tracking-tighter opacity-60">Proyectos </span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-20 lg:px-40 py-24 bg-white dark:bg-background-dark" id="habilidades">
+<div class="max-w-[1200px] mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-accent-dark font-bold tracking-widest text-xs uppercase mb-4">Stack Tecnológico</h2>
+<h3 class="text-3xl md:text-4xl font-bold">Mis Herramientas de Trabajo</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group p-8 rounded-2xl bg-background-light dark:bg-[#1A1614] border border-transparent hover:border-primary transition-all duration-300">
+<div class="size-14 bg-primary/20 rounded-xl flex items-center justify-center text-accent-dark mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">brush</span>
+</div>
+<h4 class="text-xl font-bold mb-4">Frontend Development</h4>
+<ul class="space-y-3">
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> HTML5 / CSS3 / JavaScript</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> Bootstrap &amp; Tailwind CSS</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> Diseño Responsive</li>
+
+</ul>
+</div>
+<div class="group p-8 rounded-2xl bg-background-light dark:bg-[#1A1614] border border-transparent hover:border-primary transition-all duration-300">
+<div class="size-14 bg-primary/20 rounded-xl flex items-center justify-center text-accent-dark mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">database</span>
+</div>
+<h4 class="text-xl font-bold mb-4">Backend &amp; Databases</h4>
+<ul class="space-y-3">
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> PHP (formulario de contacto) / Node.js / Express.js</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> PostgreSQL / MySQL</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> Java (POO) / Python</li>
+</ul>
+</div>
+<div class="group p-8 rounded-2xl bg-background-light dark:bg-[#1A1614] border border-transparent hover:border-primary transition-all duration-300">
+<div class="size-14 bg-primary/20 rounded-xl flex items-center justify-center text-accent-dark mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">settings</span>
+</div>
+<h4 class="text-xl font-bold mb-4">Herramientas &amp; Otros</h4>
+<ul class="space-y-3">
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> Git &amp; GitHub Control</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> Metodologías Ágiles (Scrum)</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> VS Code / Netbeans</li>
+<li class="flex items-center gap-2 text-sm opacity-80"><span class="size-1.5 bg-primary rounded-full"></span> Testing Básico con Netbeans</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light dark:bg-[#1A1614] px-6 md:px-20 lg:px-40 py-24" id="proyectos">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+<div class="flex flex-col gap-4">
+<h2 class="text-accent-dark font-bold tracking-widest text-xs uppercase">Portafolio</h2>
+<h3 class="text-3xl md:text-4xl font-bold">Proyectos Destacados</h3>
+</div>
+<p class="text-lg opacity-60 max-w-[400px]">Selección de trabajos realizados aplicando tecnologías web modernas.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="group flex flex-col gap-6">
+<a href="https://www.postesmetalicosled.cl" class="block relative overflow-hidden rounded-2xl aspect-video bg-white shadow-lg">
+
+<img alt="Postes Metálicos LED" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="/assets/images/postesmetalicosled.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#4A3438]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+<span class="text-white font-bold text-lg">Ver Detalles</span>
+</div>
+</a>
+<div class="flex flex-col gap-3">
+<h4 class="text-2xl font-bold">Postes Metálicos LED</h4>
+<p class="text-[#5D4E4E] dark:text-slate-300 leading-relaxed">
+                                Aplicación web para la visualización técnica de las estructuras y productos en ventas LED y para entrega de servicios de instalacion luminaria. me enfoque en un diseño responsivo y amigable para el usuario.
+                            </p>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">HTML5</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">JavaScript</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">PHP</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">CSS3</span>
+</div>
+</div>
+</div>
+<div class="group flex flex-col gap-6">
+<a href="https://allyaguilera.github.io/checkVisit/web/" class="block relative overflow-hidden rounded-2xl aspect-video bg-white shadow-lg">
+<img alt="Sistema de Control de Visitas" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="/assets/images/checkvisit.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#4A3438]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+<span class="text-white font-bold text-lg">Ver Detalles</span>
+</div>
+</a>
+<div class="flex flex-col gap-3">
+<h4 class="text-2xl font-bold">Sistema de Control de Visitas</h4>
+<p class="text-[#5D4E4E] dark:text-slate-300 leading-relaxed">
+                                Plataforma interna para el registro y monitoreo de visitas en edificios residenciales. Esta pagina esta más enfocada en el backend.
+                            </p>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">Node.js</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">Express.js</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">PostgreSQL</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">CSS3</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">HTML5</span>
+<span class="px-3 py-1 bg-primary/20 text-accent-dark text-xs font-bold rounded-full">Dockerfile</span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 md:px-20 lg:px-40 py-24 bg-white dark:bg-background-dark" id="trayectoria">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-1 gap-20">
+<div class="flex flex-col gap-10">
+<div class="flex flex-col gap-4">
+<h2 class="text-accent-dark font-bold tracking-widest text-xs uppercase">Experiencia Laboral</h2>
+<h3 class="text-3xl font-bold">Trayectoria Laboral</h3>
+</div>
+<div class="relative border-l-2 border-primary/30 pl-8 ml-2 flex flex-col gap-12">
+<div class="relative">
+<div class="absolute -left-[41px] top-0 size-5 bg-primary border-4 border-white dark:border-background-dark rounded-full"></div>
+<div class="flex flex-col gap-2">
+<span class="text-sm font-bold text-accent-dark">2023 - 2024</span>
+<h4 class="text-xl font-bold">Auxiliar de Estaciones</h4>
+<p class="font-semibold opacity-70">Gate Gourmet Chile</p>
+<p class="text-sm text-[#5D4E4E] dark:text-slate-400 mt-2">
+Mi función era la manipulación y montaje de alimentos para Business Class LATAM Airlines e Iberia, aca logré desarrollar habilidades de trabajo bajo presión, cumplimiento de protocolos estrictos y trabajo en equipo en entornos de alta demanda.                             </p>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="flex flex-col gap-10">
+<div class="flex flex-col gap-4">
+<h2 class="text-accent-dark font-bold tracking-widest text-xs uppercase">Educación</h2>
+<h3 class="text-3xl font-bold">Formación Académica</h3>
+</div>
+<div class="flex flex-col gap-8">
+<div class="p-6 rounded-2xl bg-background-light dark:bg-[#1A1614] border border-[#F3E9E2] dark:border-[#2D2424]">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="text-xl font-bold">Analista Programador </h4>
+<p class="opacity-70">En curso / Finalizando</p>
+</div>
+<span class="px-3 py-1 bg-white dark:bg-background-dark rounded-full text-xs font-bold">2021 - Actual</span>
+</div>
+<p class="text-sm">Institución de Educación Superior Técnico Profesional Santo Tomás.</p>
+</div>
+<div class="p-6 rounded-2xl bg-background-light dark:bg-[#1A1614] border border-[#F3E9E2] dark:border-[#2D2424]">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="text-xl font-bold">Cursos &amp; Certificaciones</h4>
+<p class="opacity-70">Formación Continua</p>
+</div>
+<span class="px-3 py-1 bg-white dark:bg-background-dark rounded-full text-xs font-bold">Varios</span>
+</div>
+<ul class="text-sm space-y-2">
+<li>- CSS Essentials</li>
+<li>- IT Essentials: PC Hardware and Software</li>
+<li>- Gestión de Proyectos con Metodologías Ágiles</li>
+</ul>
+</div>
+<div class="flex flex-col gap-8">
+<div class="p-6 rounded-2xl bg-background-light dark:bg-[#1A1614] border border-[#F3E9E2] dark:border-[#2D2424]">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="text-xl font-bold">Ing. Electricidad y automatización industrial </h4>
+<p class="opacity-70">6 semestres </p>
+</div>
+<span class="px-3 py-1 bg-white dark:bg-background-dark rounded-full text-xs font-bold">2021 - Actual</span>
+</div>
+<p class="text-sm">Institución de Educación Superior Técnico Profesional Duoc UC.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-primary/10 dark:bg-background-dark/50 px-6 md:px-20 lg:px-40 py-24" id="contacto">
+<div class="max-w-[1200px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-4">
+<h2 class="text-accent-dark font-bold tracking-widest text-xs uppercase">Contacto</h2>
+<h3 class="text-4xl font-black">¿Tienes un proyecto en mente?</h3>
+<p class="text-lg opacity-80">
+                                Estoy buscando mi primera oportunidad en el mundo del desarrollo para aportar mis ganas de aprender y mis habilidades técnicas.
+                            </p>
+</div>
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-4">
+<div class="size-12 bg-primary rounded-xl flex items-center justify-center text-[#4A3438]">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs font-bold opacity-60 uppercase">Email</p>
+<p class="font-bold">ally.aguilera@icloud.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="size-12 bg-primary rounded-xl flex items-center justify-center text-[#4A3438]">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="text-xs font-bold opacity-60 uppercase">Ubicación</p>
+<p class="font-bold">Región de la Araucanía, Chile</p>
+
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-4">
+<div class="size-12 bg-primary rounded-xl flex items-center justify-center text-[#4A3438]">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-bold opacity-60 uppercase">Telefono</p>
+<p class="font-bold">+569 71049436</p>
+</div>
+</div>
+</div>
+<div class="flex gap-4">
+<a class="size-12 rounded-xl bg-white dark:bg-background-dark border border-[#F3E9E2] dark:border-[#2D2424] flex items-center justify-center hover:bg-primary transition-colors group" href="https://www.linkedin.com/in/allyson-estefan%C3%ADa-aguilera-poblete-b14916359/">
+<svg class="size-6 fill-current group-hover:text-white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+<a class="size-12 rounded-xl bg-white dark:bg-background-dark border border-[#F3E9E2] dark:border-[#2D2424] flex items-center justify-center hover:bg-primary transition-colors group" href="https://github.com/allyAguilera">
+<svg class="size-6 fill-current group-hover:text-white" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+</a>
+
+<a class="size-12 rounded-xl bg-white dark:bg-background-dark border border-[#F3E9E2] dark:border-[#2D2424] flex items-center justify-center hover:bg-primary transition-colors group"
+   href="https://wa.me/569XXXXXXXX" 
+   target="_blank">
+
+  <svg class="size-6 fill-current text-black dark:text-white group-hover:text-white"
+       viewBox="0 0 32 32">
+    <path d="M19.11 17.48c-.28-.14-1.64-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.09-.16.18-.32.21-.6.07-.28-.14-1.17-.43-2.23-1.38-.82-.73-1.38-1.63-1.54-1.9-.16-.28-.02-.43.12-.57.13-.13.28-.32.43-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.61-1.47-.83-2.01-.22-.52-.44-.45-.61-.46l-.52-.01c-.18 0-.46.07-.7.35-.25.28-.93.9-.93 2.19 0 1.28.95 2.52 1.08 2.7.14.18 1.87 2.86 4.54 4.01.64.28 1.13.44 1.52.56.64.2 1.22.17 1.68.1.51-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32zM16 3C8.83 3 3 8.83 3 16c0 2.83.93 5.46 2.5 7.6L3 29l5.58-2.45C10.67 28.05 13.25 29 16 29c7.17 0 13-5.83 13-13S23.17 3 16 3zm0 23.5c-2.5 0-4.8-.8-6.67-2.14l-.48-.34-3.31 1.45.88-3.49-.31-.5A10.46 10.46 0 0 1 5.5 16C5.5 10.21 10.21 5.5 16 5.5S26.5 10.21 26.5 16 21.79 26.5 16 26.5z"/>
+  </svg>
+</a>
+
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</main>
+<footer class="px-6 md:px-20 lg:px-40 py-12 bg-white dark:bg-background-dark border-t border-[#F3E9E2] dark:border-[#2D2424]">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col gap-2 items-center md:items-start">
+<div class="flex items-center gap-3">
+<div class="size-6 text-accent-dark">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<p class="text-lg font-bold">Allyson Aguilera</p>
+</div>
+<p class="text-xs opacity-50">© 2024 - Diseñado con pasión por la tecnología.</p>
+</div>
+<nav class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+<a class="text-sm font-medium opacity-60 hover:opacity-100 transition-colors" href="#inicio">Inicio</a>
+<a class="text-sm font-medium opacity-60 hover:opacity-100 transition-colors" href="#perfil">Perfil</a>
+<a class="text-sm font-medium opacity-60 hover:opacity-100 transition-colors" href="#proyectos">Proyectos</a>
+<a class="text-sm font-medium opacity-60 hover:opacity-100 transition-colors" href="#contacto">Contacto</a>
+</nav>
+<div class="flex gap-4">
+<a class="text-accent-dark hover:scale-110 transition-transform" href="https://api.whatsapp.com/send?phone=+56971049436&text=Hola%2C%20quiero%20contactarte%20desde%20tu%20portafolio."><span class="material-symbols-outlined">call</span></a>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
